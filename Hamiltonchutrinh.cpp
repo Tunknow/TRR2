@@ -16,11 +16,13 @@ void Hamilton(int k)
                     cout << "Chu trinh Hamilton: ";
                     for(int id=1; id<=n; id++) cout << x[id] << " ";
                     cout << endl;
+                    break;
                 }
                 else {
                     cout << "Duong di Hamilton: ";
                     for(int id=1; id<=n; id++) cout << x[id] << " ";
                     cout << endl;
+                    break;
                 }
             }
             else {
