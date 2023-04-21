@@ -12,7 +12,7 @@ void Hamilton(int k)
     for(int i=1; i<=n; i++) {
         if(a[i][x[k-1]]==1) {
             if(k==n+1) {
-                if(i==x[1]) {
+                if(a[x[n]][x[1]]==1) {
                     cout << "Chu trinh Hamilton: ";
                     for(int id=1; id<=n; id++) cout << x[id] << " ";
                     cout << endl;
